@@ -1,7 +1,6 @@
 #welcome to NetCop a simple cli network sniffer and analyer
 
 from scapy.all import *
-import pandas as pd
 from datetime import datetime
 import psutil
 import threading
@@ -112,3 +111,5 @@ if __name__ == "__main__":
         print("\nStopping...")
         sniffer.stop()
     print("NetCop sniffer stopped. Peace out😊")
+
+#yet to use pandas to create a better one
